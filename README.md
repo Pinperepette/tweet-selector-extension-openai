@@ -21,6 +21,9 @@ This is a browser extension for selecting and saving tweet texts directly from T
 ### 3. API Settings
 ![API Settings](screen_3.png)
 
+### 3. Example
+![API Settings](screen_4.jpg)
+
 ## Installation
 
 1. Clone this repository or download the source code.
