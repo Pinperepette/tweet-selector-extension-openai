@@ -10,6 +10,17 @@ This is a browser extension for selecting and saving tweet texts directly from T
 - **API Settings**: Configure and save your API key and custom prompts for ChatGPT.
 - **Toggle Sidebar**: Show or hide the sidebar for a distraction-free experience.
 
+## Screenshots
+
+### 1. Main Interface
+![Main Interface](screen_1.png)
+
+### 2. Selecting Tweets
+![Selecting Tweets](screen_2.png)
+
+### 3. API Settings
+![API Settings](screen_3.png)
+
 ## Installation
 
 1. Clone this repository or download the source code.
