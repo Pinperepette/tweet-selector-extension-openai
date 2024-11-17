@@ -231,6 +231,16 @@ async function sendTextsToChatGPT() {
         temperature: 0.7,
     };
 
+    // Add the loading indicator to the sidebar
+    const sidebar = document.querySelector('.sidebar-selected-texts');
+    const loadingIndicator = document.createElement('p');
+    loadingIndicator.innerText = 'Loading...';
+    loadingIndicator.style.color = '#0077cc';
+    loadingIndicator.style.fontWeight = 'bold';
+    loadingIndicator.style.textAlign = 'center';
+    loadingIndicator.style.marginTop = '10px';
+    sidebar.appendChild(loadingIndicator);
+
     try {
         const response = await fetch('https://api.openai.com/v1/chat/completions', {
             method: 'POST',
@@ -254,6 +264,9 @@ async function sendTextsToChatGPT() {
     } catch (error) {
         console.error('Error:', error.message);
         alert(`Error: ${error.message}`);
+    } finally {
+        // Remove the loading indicator
+        loadingIndicator.remove();
     }
 }
 
