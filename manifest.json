@@ -1,0 +1,22 @@
+{
+  "manifest_version": 2,
+  "name": "Tweet Selector",
+  "version": "1.0",
+  "icons": {
+    "48": "icon-48.png",
+    "128": "icon-128.png"
+  },
+  "permissions": [
+    "activeTab"
+  ],
+  "content_scripts": [
+    {
+      "matches": ["*://x.com/*", "*://twitter.com/*"],
+      "js": ["content.js"]
+    }
+  ],
+  "web_accessible_resources": [
+    "icon-select.png",
+    "icon-selected.png"
+  ]
+}
