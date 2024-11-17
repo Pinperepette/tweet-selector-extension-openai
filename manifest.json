@@ -7,7 +7,8 @@
     "128": "icon-128.png"
   },
   "permissions": [
-    "activeTab"
+    "activeTab",
+    "https://api.openai.com/"
   ],
   "content_scripts": [
     {
