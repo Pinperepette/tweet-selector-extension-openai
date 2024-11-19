@@ -24,6 +24,10 @@ This is a browser extension for selecting and saving tweet texts directly from T
 ### 3. Example
 ![API Settings](screen_4.jpg)
 
+### Important Information
+- **Twitter Theme**: For the best experience, please make sure to use Twitter with the white theme.
+- **Add-on Link**: You can find and install the add-on from the Firefox Add-ons store [here](https://addons.mozilla.org/it/firefox/addon/tweet-selector/).
+
 ## Installation
 
 1. Clone this repository or download the source code.
